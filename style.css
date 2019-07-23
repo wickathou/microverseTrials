@@ -19,10 +19,24 @@ body{
 }
 
 #nav-bar{
+    width: 500px;
     text-align: center;
     padding: 5%;
+    position: absolute;
+    top: 12%;
+    right: 5%;
+}
+
+.nav-link{
+    padding: 0 1%;
 }
 
 #video {
     text-align: center;
+}
+
+@media (max-width:800px){
+    body{
+        background: #f8f8f8;
+    }
 }
